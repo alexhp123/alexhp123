@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @alexhp123
 - 👀 I’m interested in custom os like lineage os
-- 🌱 I’m currently learning about linux
+- 🌱 I’m currently learning about linux 
 - 💞️ I’m looking to collaborate on me
 - 📫 How to reach me alexirina557@gmail.com
 
@@ -10,3 +10,5 @@ You can click the Preview link to take a look at your changes.
 --->
 i not create code but i make easy to by ACCESSIBLE to everyone to have it, it like on Amazon ;)
 I can copy end modefy programs.
+i know only HTML.
+
