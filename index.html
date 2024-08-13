@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server IP Address</title>
+    <title>Server IP and Subnet</title>
 </head>
 <body>
-    <h1>Server IP Address:</h1>
+    <h1>Server Information:</h1>
     <p id="ip-address"></p>
+    <p id="subnet"></p>
 
     <script>
-        // Fetch the server's IP address
+        // Fetch the server's IP address and subnet
         fetch('https://api64.ipify.org?format=json')
             .then(response => response.json())
             .then(data => {
-                document.getElementById('ip-address').textContent = data.ip;
+                document.getElementById('ip-address').textContent = `IP Address: ${data.ip}`;
+                // Replace 'your-subnet-here' with the actual subnet information
+                document.getElementById('subnet').textContent = `Subnet: your-subnet-here`;
             })
             .catch(error => {
                 console.error('Error fetching IP address:', error);
